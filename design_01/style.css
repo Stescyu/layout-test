@@ -1,0 +1,43 @@
+
+html, body {
+    background: #333;
+    color: #FDFDFD;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    height:100%;
+    position:relative;
+    top: 15%;
+}
+
+h1 {
+    padding: 0;
+    margin: 5px;
+}
+.up {
+    background: red;
+    height: 40%;
+    transform: rotate(10deg);
+    margin: 0;
+    box-shadow: 100px 0 0 red, -100px 0 0 red, 0 -250px 100px red;
+}
+.up:hover{
+    background: yellow;
+    box-shadow: 100px 0 0 yellow, -100px 0 0 yellow, 0 -250px 100px yellow;
+}
+.down {
+    background: blue;
+    height: 40%;
+    transform: rotate(10deg);
+    margin: 0;
+    box-shadow: 100px 0 0 blue, -100px 0 0 blue, 0 250px 100px blue;
+}
+
+.down:hover {
+    background: yellow;
+    box-shadow: 100px 0 0 yellow, -100px 0 0 yellow, 0 250px 100px yellow
+}
